@@ -21,7 +21,7 @@ voc_melo = {
   \global
   \clef "treble_8"
   <<
-    \melody_A
+    { \melody_A }
   >>
 }
 
@@ -30,7 +30,7 @@ guitar_melo = {
   \global
   \clef "treble_8"
   <<
-    \counter_A
+    { \counter_A }
   >>
 }
 
@@ -39,7 +39,7 @@ guitar_code = {
   \global
   \clef "treble_8"
   <<
-    \code_A_dummy
+    { \code_A_dummy }
   >>
 }
 
@@ -48,7 +48,7 @@ lead = {
   \global
   \clef "treble"
   <<
-    \lead_A_tachet
+    { \lead_A_tachet }
   >> 
 }
 
@@ -57,38 +57,41 @@ bass = {
   \global
   \clef "bass_8"
   <<
-    \bass_A_tachet
+    { \bass_A_tachet }
   >> 
 }
 
 \include "chordnames.ly"
 chordnames = {
   <<
-    \chordnames_A
+    { \chordnames_A } 
   >>
 }
 
 
-% ------ Drums ------
-up = \drummode {
-  \voiceOne
-  hh4 <hh sn> hh <hh sn>
-  hh4 <hh sn> hh <hh sn>
-  hh4 <hh sn> hh <hh sn>
-}
-down = \drummode {
-  \voiceTwo
-  bd4 s bd s
-  bd4 s bd s
-  bd4 s bd s
-}
+#(define mydrums '(
+    (crashcymbal xcircle #f 7)
+    (ridecymbal cross #f 6)
+    (hihat cross #f 5)
+    (closedhihat cross stopped 5)
+    (openhihat cross open 5)
+    (halfopenhihat cross halfopen 5)
+    (snare default #f 1)
+    (hightom default #f 3)
+    (himidtom default #f 2)
+    (lowmidtom default #f 0)
+    (lowtom default #f -1)
+    (bassdrum default #f -3)
+  )
+)
+
+\include "drums.ly" 
 
 drumContents = {
   \global
   <<
-    \new DrumVoice \up
-    \new DrumVoice \down
-  >>
+    { \drums_A }
+  >> 
 }
 
 
@@ -112,7 +115,10 @@ drumContents = {
       \new Staff = "bass" \with { instrumentName = "Bass" }
       { \cismKey \tempo 4 =160 \bass }
       \new DrumStaff \with { instrumentName = "Drums" }
-      \drumContents
+      {
+        \set DrumStaff.drumStyleTable = #(alist->hash-table mydrums)
+        \drumContents 
+      }
     >>
   >>
   \layout {
