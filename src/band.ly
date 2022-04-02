@@ -101,8 +101,8 @@ drumContents = {
   <<
     \new StaffGroup = "band" <<
       \new Staff = "main" \with { instrumentName = "Vocal" }
-      % \tempo 4 = 160 % この位置にテンポいれなきゃいけないのスゲーーーーーーーキモチワルイ。なんとかならないの？
-      % なんで各パートに寄生させなきゃいけないわけ？？？音楽のデータ構造をなんだと思ってるの？？？？
+      % tempoの位置がキモいけど、なぜかStaffGroupで同じ値をセットすると最初の段以外のtempo表記は無視される。
+      % tempoの許容配置位置と挙動がよくわからない。
       { \cismKey \tempo 4 =160 \voc_melo }
       \new Staff = "guitar1" \with { instrumentName = "Guitar 1" }
       { \cismKey \tempo 4 =160 \guitar_melo }
