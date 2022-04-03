@@ -171,13 +171,13 @@ drums_hook = {
 
 upper_inter = \drummode {
     \voiceOne
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
     hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
     hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
     hh4 hh8 hh8 hh4 hh8 hh8
-    hh4 hh8 hh8 hh4 hh8 hh8
-    hh4 hh8 hh8 hh4 hh8 hh8
-    hh4 hh8 hh8 hh4 hh8 hh8
-    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
     hh4 hh8 hh8 toml4 toml8 toml8
 }
 foot_inter = \drummode {
