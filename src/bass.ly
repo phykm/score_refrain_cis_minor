@@ -47,3 +47,15 @@ bass_hook = \relative c, {
     cis4. cis8 cis2~
     cis4 cis4 8 8~4
 }
+
+bass_inter = \relative c, {
+    a8 a8~4 r4 a8 a8~
+    a4 r4 a8 a8~4
+    b8 b8~4 r4 b8 gis8~
+    gis4 r4 gis8 gis8~4
+
+    a8 a8~4 r4 a8 a8~
+    a4 r4 a8 a8~4
+    b8 b8~4 r4 b8 gis8~
+    gis4 fis'8 dis8 bis8 gis8 fis8 gis8
+}

@@ -25,6 +25,7 @@ voc_melo = {
     \melody_A
     \melody_B
     \melody_hook
+    \melody_inter_tachet
   }
 }
 
@@ -37,6 +38,7 @@ guitar_melo = {
     \counter_A
     \counter_B
     \counter_hook
+    \counter_inter_One
   }
 }
 
@@ -49,6 +51,7 @@ guitar_code = {
     \chord_A_dummy
     \chord_B_dummy
     \chord_hook_dummy
+    \counter_inter_Two
   }
 }
 
@@ -61,6 +64,7 @@ lead = {
     \lead_A_tachet
     \lead_B_tachet
     \lead_hook_tachet
+    \lead_inter_One
   }
 }
 
@@ -73,6 +77,7 @@ bass = {
     \bass_A_tachet
     \bass_B
     \bass_hook
+    \bass_inter
   }
 }
 
@@ -83,6 +88,7 @@ chordnames = {
     \chordnames_A
     \chordnames_B
     \chordnames_hook
+    \chordnames_inter
   } 
 }
 
@@ -111,6 +117,7 @@ drumContents = {
     \drums_A
     \drums_B
     \drums_hook
+    \drums_inter
   }
 }
 

@@ -85,3 +85,10 @@ code_A_with_tone = {
     <b dis fis a>1
 }
 
+counter_inter_Two = \relative c' {
+    cis4. gis8 a2~1
+    fis2 fis'2 dis2 gis,2
+    cis4. gis8 a2~1
+    fis2 fis'2 dis2 gis,2
+}
+

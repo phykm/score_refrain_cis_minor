@@ -23,3 +23,8 @@ chordnames_hook = \chordmode {
 
     cis1:m s2 b2 cis1:m s1 
 }
+
+chordnames_inter = \chordmode {
+    a1 s1 b1 gis1
+    a1 s1 b1 gis1
+}

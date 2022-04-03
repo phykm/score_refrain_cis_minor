@@ -168,3 +168,29 @@ drums_hook = {
     \new DrumVoice \foot_hook
   >>
 }
+
+upper_inter = \drummode {
+    \voiceOne
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 toml4 toml8 toml8
+}
+foot_inter = \drummode {
+    \voiceTwo
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+}
+
+drums_inter = {
+  <<
+    \new DrumVoice \upper_inter
+    \new DrumVoice \foot_inter
+  >>
+}

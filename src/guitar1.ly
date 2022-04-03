@@ -61,3 +61,14 @@ counter_hook = \relative c' {
     a8 gis8 e2.~
     e2. r4
 }
+
+counter_inter_One = \relative c' {
+    e,2. e'8 dis8~
+    dis4 e8 cis8~4 gis8 a8
+    a4. b8 fis2~
+    fis4 r8 e8 dis8 e8 fis4
+    gis2. fis'8 e8~
+    e4 fis8 dis4 e4 gis,8
+    a4. b8 cis2
+    bis4. cis8 dis4. gis,8
+}
