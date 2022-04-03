@@ -1,4 +1,4 @@
-\version "2.22.6"
+\version "2.23.6"
 \header {
   title = "Cis minor Refrain"
   composer = "Katsuhiko Matsuhisa"
@@ -21,7 +21,11 @@ voc_melo = {
   \global
   \clef "treble_8"
   <<
-    { \melody_A }
+    { 
+      \melody_A
+      \melody_B
+      \melody_hook
+    }
   >>
 }
 
@@ -30,7 +34,11 @@ guitar_melo = {
   \global
   \clef "treble_8"
   <<
-    { \counter_A }
+    { 
+      \counter_A
+      \counter_B
+      \counter_hook
+    }
   >>
 }
 
@@ -39,7 +47,11 @@ guitar_code = {
   \global
   \clef "treble_8"
   <<
-    { \code_A_dummy }
+    { 
+      \chord_A_dummy
+      \chord_B_dummy
+      \chord_hook_dummy
+    }
   >>
 }
 
@@ -48,7 +60,11 @@ lead = {
   \global
   \clef "treble"
   <<
-    { \lead_A_tachet }
+    { 
+      \lead_A_tachet
+      \lead_B_tachet
+      \lead_hook_tachet
+    }
   >> 
 }
 
@@ -57,18 +73,26 @@ bass = {
   \global
   \clef "bass_8"
   <<
-    { \bass_A_tachet }
+    { 
+      \bass_A_tachet
+      \bass_B
+      \bass_hook
+    }
   >> 
 }
 
 \include "chordnames.ly"
 chordnames = {
   <<
-    { \chordnames_A } 
+    { 
+      \chordnames_A
+      \chordnames_B
+      \chordnames_hook
+    } 
   >>
 }
 
-
+% よくある日本のバンドスコアの形式に再定義
 #(define mydrums '(
     (crashcymbal xcircle #f 7)
     (ridecymbal cross #f 6)
@@ -108,7 +132,7 @@ drumContents = {
       { \cismKey \tempo 4 =160 \guitar_melo }
       \new ChordNames = "barichords"
       { \chordnames }
-      \new Staff = "guitar2" \with { instrumentName = "Guitar 2" \consists "Pitch_squash_engraver" }
+      \new Staff = "guitar2" \with { instrumentName = "Guitar 2" }
       { \cismKey  \tempo 4 =160 \guitar_code } 
       \new Staff = "lead" \with { instrumentName = "Lead" }
       { \cismKey \tempo 4 =160 \lead }
