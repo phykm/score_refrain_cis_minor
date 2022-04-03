@@ -20,76 +20,70 @@ amKey = {\key a \minor }
 voc_melo = {
   \global
   \clef "treble_8"
-  <<
-    { 
-      \melody_A
-      \melody_B
-      \melody_hook
-    }
-  >>
+  { 
+    \cismKey
+    \melody_A
+    \melody_B
+    \melody_hook
+  }
 }
 
 \include "guitar1.ly" 
 guitar_melo = {
   \global
   \clef "treble_8"
-  <<
-    { 
-      \counter_A
-      \counter_B
-      \counter_hook
-    }
-  >>
+  { 
+    \cismKey
+    \counter_A
+    \counter_B
+    \counter_hook
+  }
 }
 
 \include "guitar2.ly"
 guitar_code = {
   \global
   \clef "treble_8"
-  <<
-    { 
-      \chord_A_dummy
-      \chord_B_dummy
-      \chord_hook_dummy
-    }
-  >>
+  { 
+    \cismKey
+    \chord_A_dummy
+    \chord_B_dummy
+    \chord_hook_dummy
+  }
 }
 
 \include "lead.ly"
 lead = {
   \global
   \clef "treble"
-  <<
-    { 
-      \lead_A_tachet
-      \lead_B_tachet
-      \lead_hook_tachet
-    }
-  >> 
+  { 
+    \cismKey
+    \lead_A_tachet
+    \lead_B_tachet
+    \lead_hook_tachet
+  }
 }
 
 \include "bass.ly"
 bass = {
   \global
   \clef "bass_8"
-  <<
-    { 
-      \bass_A_tachet
-      \bass_B
-      \bass_hook
-    }
-  >> 
+  { 
+    \cismKey
+    \bass_A_tachet
+    \bass_B
+    \bass_hook
+  }
 }
 
 \include "chordnames.ly"
 chordnames = {
-  <<
-    { 
-      \chordnames_A
-      \chordnames_B
-      \chordnames_hook
-    } 
-  >>
+  { 
+    \cismKey
+    \chordnames_A
+    \chordnames_B
+    \chordnames_hook
+  } 
 }
 
 % よくある日本のバンドスコアの形式に再定義
@@ -113,37 +107,35 @@ chordnames = {
 
 drumContents = {
   \global
-  <<
-    { \drums_A }
-  >> 
+  {
+    \drums_A
+  }
 }
 
 
 
 
 \score {
-  <<
-    \new StaffGroup = "band" <<
-      \new Staff = "main" \with { instrumentName = "Vocal" }
-      % tempoの位置がキモいけど、なぜかStaffGroupで同じ値をセットすると最初の段以外のtempo表記は無視される。
-      % tempoの許容配置位置と挙動がよくわからない。
-      { \cismKey \tempo 4 =160 \voc_melo }
-      \new Staff = "guitar1" \with { instrumentName = "Guitar 1" }
-      { \cismKey \tempo 4 =160 \guitar_melo }
-      \new ChordNames = "barichords"
-      { \chordnames }
-      \new Staff = "guitar2" \with { instrumentName = "Guitar 2" }
-      { \cismKey  \tempo 4 =160 \guitar_code } 
-      \new Staff = "lead" \with { instrumentName = "Lead" }
-      { \cismKey \tempo 4 =160 \lead }
-      \new Staff = "bass" \with { instrumentName = "Bass" }
-      { \cismKey \tempo 4 =160 \bass }
-      \new DrumStaff \with { instrumentName = "Drums" }
-      {
-        \set DrumStaff.drumStyleTable = #(alist->hash-table mydrums)
-        \drumContents 
-      }
-    >>
+  \new StaffGroup = "band" <<
+    \new Staff = "main" \with { instrumentName = "Vocal" }
+    % tempoの位置がキモいけど、なぜかStaffGroupで同じ値をセットすると最初の段以外のtempo表記は無視される。
+    % tempoの許容配置位置と挙動がよくわからない。
+    { \tempo 4 =160 \voc_melo }
+    \new Staff = "guitar1" \with { instrumentName = "Guitar 1" }
+    { \tempo 4 =160 \guitar_melo }
+    \new ChordNames = "guitarchords"
+    { \chordnames }
+    \new Staff = "guitar2" \with { instrumentName = "Guitar 2" }
+    { \tempo 4 =160 \guitar_code } 
+    \new Staff = "lead" \with { instrumentName = "Lead" }
+    { \tempo 4 =160 \lead }
+    \new Staff = "bass" \with { instrumentName = "Bass" }
+    { \tempo 4 =160 \bass }
+    \new DrumStaff \with { instrumentName = "Drums" }
+    {
+      \set DrumStaff.drumStyleTable = #(alist->hash-table mydrums)
+      \drumContents 
+    }
   >>
   \layout {
   }
