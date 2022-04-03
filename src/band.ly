@@ -109,6 +109,8 @@ drumContents = {
   \global
   {
     \drums_A
+    \drums_B
+    \drums_hook
   }
 }
 
