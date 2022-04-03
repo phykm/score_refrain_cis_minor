@@ -13,11 +13,11 @@ chordnames_B = \chordmode {
 }
 
 chordnames_hook = \chordmode {
-    a1 fis1:m b1:7 cis:m7.13-/e
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
     fis2 gis2:7 cis2:m cis2:m/e
-    fis1:m gis1:7
+    fis1:m gis:7.13-
 
-    a1 fis1:m b1:7 cis:m7.13-/e
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
     fis2 gis2:7 cis2:m cis2:m/e
     fis1:m gis1:7
 
