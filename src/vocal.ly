@@ -68,7 +68,20 @@ melody_inter_tachet = {
     R1 R1 R1 R1 R1 R1 R1 R1
 }
 
-melody_developOne_tachet = {
+melody_developOne_tachet = \relative c'{
     R1 R1 R1 R1 R1 R1 R1 R1
-    R1 R1 R1 R1 R1 R1 R1 R1
+    R1 R1 R1 R1 R1 R1 R1 r2. cis4~
+}
+
+melody_developTwo = \relative c' {
+    cis2. d,4 fis4 a4 cis4. d8
+    b4. a8 gis8 a8 b4 e,2 e'4. d8
+    d4 cis8 cis8~4 a8 a8~
+    a4 fis8 a8~8 b8~8 e,8
+    b'4 a8 b8~8 e8 d8 cis8~
+    cis4. gis8 a8 b4.
+
+    c2. f,8 f8 d'4 c8 b4 c4 a8~
+    a4 a'8 a8~4 g4 fis e8 e8~4 e8 fis8
+    fis4. dis8 dis2~1~2. r4 r4. gis,8 e'4. dis8 
 }

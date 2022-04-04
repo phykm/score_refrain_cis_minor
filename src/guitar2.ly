@@ -100,6 +100,31 @@ chord_developOne_dummy = {
     \nsl
 }
 
+chord_developTwo = \relative c'{
+    r4 fis, a d
+    d fis, a d
+    e gis, b e
+    e gis, b e
+    a, cis, fis a
+    a  cis, fis a
+    b gis b e 
+    e gis, b d
+
+    c f, a c
+    d f, a d
+    f g, b f'
+    e a, c e
+
+    \sl
+    \fixed c{
+        \override NoteHead.style = #'slash
+        b4. 8 2~1~1
+        r4 b4 8 8 4
+        \revert NoteHead.style 
+    }
+    \nsl
+}
+
 code_A_with_tone = {
     <cis e gis>1~
     1

@@ -93,3 +93,14 @@ bass_developOne = \relative c, {
     ais4 8 8 4 8 8 4 8 8 4 8 8
     cis4 8 8 4 8 8 4 8 8 4 8 8
 }
+
+bass_developTwo = \relative c, {
+    d4 8 8~4 8 8 fis4 d8 8~4 cis8 d8
+    e4 e8 gis8~8 b8 a8 gis8~4. e8 e2
+    fis4 8 8~4 8 8 a4 cis8 fis,8~4 fis8 a8
+    gis4 e8 e8~8 8 b'8 a8 a4. gis8 gis8 e4.
+
+    f4. 8 a4. f8 f8 d8 d4 f8 d8 d8 f8
+    g4. 8 b4. g8 a8 c,8 c4 a'8 c,8 c8 a'8
+    gis4. gis,8 gis2~1~1 r2 gis8 8 4 
+}

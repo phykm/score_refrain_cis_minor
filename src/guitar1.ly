@@ -142,3 +142,23 @@ counter_developOne = \relative c'' {
         \revert NoteHead.style 
     }
 }
+
+counter_developTwo = \relative c'' {
+    \ottava #1
+    r4 d,4 fis4 a4 d4 cis8 cis8~4 b8 a8
+    gis4. b8 e,4. gis8 b8 cis8 d4 gis,4. gis8
+    a4 eis8 fis8 gis4 d'4 d4 cis4 cis8 d8 b8 a8
+    gis8 b8 e,4. fis8 gis8 a8 a4. b8 fis8 gis4.
+    \ottava #0
+
+    r4 a4 g4 f4 f4. e8 d2~
+    d4 f4 e4 d4 d4. c8 c2~
+    c4 dis4 cis4 bis4 bis4. gis8 gis2~
+    gis4. fis8 fis4. dis8 dis4. e8 fis4. gis8 
+}
+
+guitar_hook_solo = \relative c'' {
+    \ottava #1
+    %  TODO 
+    \ottava #0
+}

@@ -35,3 +35,10 @@ chordnames_developOne = \chordmode {
     g1 e1:m a1:7 b1:m/d
     ais1:dim7 s1 s1 s1
 }
+
+chordnames_developTwo = \chordmode {
+    d1:maj7 s1 e1:7 s1
+    fis1:m s1 e1:7 s1
+    f1 d1:m g1:7 a1:m/c
+    gis:7 s1 s1 s1 
+}

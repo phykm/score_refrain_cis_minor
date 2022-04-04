@@ -32,7 +32,11 @@ voc_melo = {
     \melody_hook
     %
     \melody_developOne_tachet
-  }
+    \fismKey
+    \melody_developTwo
+    \cismKey
+    %
+  } 
 }
 
 \include "guitar1.ly" 
@@ -51,6 +55,10 @@ guitar_melo = {
     \counter_hook_secondverse
     %
     \counter_developOne
+    \fismKey
+    \counter_developTwo
+    \cismKey
+    %
   }
 }
 
@@ -70,6 +78,10 @@ guitar_code = {
     \chord_hook_dummy
     %
     \chord_developOne_dummy
+    \fismKey
+    \chord_developTwo
+    \cismKey
+    %
   }
 }
 
@@ -89,7 +101,10 @@ lead = {
     \lead_hook
     %
     \lead_developOne
+    \fismKey
     \lead_developTwo
+    \cismKey
+    %
   }
 }
 
@@ -109,6 +124,10 @@ bass = {
     \bass_hook
     %
     \bass_developOne
+    \fismKey
+    \bass_developTwo
+    \cismKey
+    %
   }
 }
 
@@ -126,6 +145,8 @@ chordnames = {
     \chordnames_hook
     %
     \chordnames_developOne
+    \chordnames_developTwo
+    %
   } 
 }
 
@@ -159,6 +180,10 @@ drumContents = {
     \drums_AA
     \drums_B
     \drums_hook
+    %
+    \drums_developOne
+    \drums_developTwo
+    %
   }
 }
 
