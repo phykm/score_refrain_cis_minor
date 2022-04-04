@@ -28,3 +28,10 @@ chordnames_inter = \chordmode {
     a1 s1 b1 gis1
     a1 s1 b1 gis1
 }
+
+chordnames_developOne = \chordmode {
+    a1 b1:7 cis1:m cis1:m/e
+    a1:dim7 s1 e1:m dis1:dim7
+    g1 e1:m a1:7 b1:m/d
+    ais1:dim7 s1 s1 s1
+}

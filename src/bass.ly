@@ -3,6 +3,24 @@ bass_A_tachet = {
     R1 R1 R1 R1 R1 R1 R1 R1
 }
 
+bass_AA  = \relative c, {
+    cis4 8 8 4 8 8 
+    4 8 8 4 8 8
+    fis4 8 8 4 8 8
+    e4 e8 dis8 cis4 cis8 b8
+    a4 8 8 4 8 8 
+    e'4 8 8 4 8 8
+    dis4 8 8 cis4 8 8 bis4 8 8 gis4 8 8 
+
+    cis4 8 8 4 8 8 
+    4 8 8 4 8 8
+    fis4 8 8 4 8 8
+    e4 e8 dis8 cis4 cis8 b8
+    a4 8 8 4 8 8 
+    e'4 8 8 4 8 8
+    fis4 8 8 e4 8 8 dis4 8 8 b8 8 4  
+}
+
 bass_B = \relative c, {
     cis8 cis8~4 r4 cis8 ais8~
     ais4 ais4 cis8 ais8~4
@@ -58,4 +76,20 @@ bass_inter = \relative c, {
     a4 r4 a8 a8~4
     b8 b8~4 r4 b8 gis8~
     gis4 fis'8 dis8 bis8 gis8 fis8 gis8
+}
+
+bass_developOne = \relative c, {
+    a4. a8 cis4. a8 b4. b8 dis4. b8
+    cis4. cis8 e4. cis8 cis8 e,8 e4 cis'8 e,8 e8 cis'8
+
+    a8 a8~4 r4 a8 a8~
+    a4 a4 a8 a8~4
+    e'8 e8~4 r4 e8 dis8~
+    dis4 bis4 fis8 fis8~4
+
+    g4. g8 b4. g8 g8 e8 e4 g8 e8 e8 g8
+    a4. a8 cis4. a8 b8 d8 d4 b8 d8 d8 b8
+
+    ais4 8 8 4 8 8 4 8 8 4 8 8
+    cis4 8 8 4 8 8 4 8 8 4 8 8
 }

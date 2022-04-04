@@ -67,3 +67,8 @@ melody_hook = \relative c' {
 melody_inter_tachet = {
     R1 R1 R1 R1 R1 R1 R1 R1
 }
+
+melody_developOne_tachet = {
+    R1 R1 R1 R1 R1 R1 R1 R1
+    R1 R1 R1 R1 R1 R1 R1 R1
+}

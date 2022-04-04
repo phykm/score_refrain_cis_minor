@@ -26,6 +26,12 @@ voc_melo = {
     \melody_B
     \melody_hook
     \melody_inter_tachet
+    %
+    \melody_A
+    \melody_B
+    \melody_hook
+    %
+    \melody_developOne_tachet
   }
 }
 
@@ -39,6 +45,12 @@ guitar_melo = {
     \counter_B
     \counter_hook
     \counter_inter_One
+    %
+    \counter_AA
+    \counter_BB
+    \counter_hook_secondverse
+    %
+    \counter_developOne
   }
 }
 
@@ -52,6 +64,12 @@ guitar_code = {
     \chord_B_dummy
     \chord_hook_dummy
     \counter_inter_Two
+    %
+    \chord_AA_dummy
+    \chord_B_dummy
+    \chord_hook_dummy
+    %
+    \chord_developOne_dummy
   }
 }
 
@@ -65,6 +83,13 @@ lead = {
     \lead_B_tachet
     \lead_hook_tachet
     \lead_inter_One
+    %
+    \lead_AA
+    \lead_BB
+    \lead_hook
+    %
+    \lead_developOne
+    \lead_developTwo
   }
 }
 
@@ -78,6 +103,12 @@ bass = {
     \bass_B
     \bass_hook
     \bass_inter
+    %
+    \bass_AA
+    \bass_B
+    \bass_hook
+    %
+    \bass_developOne
   }
 }
 
@@ -89,6 +120,12 @@ chordnames = {
     \chordnames_B
     \chordnames_hook
     \chordnames_inter
+    %
+    \chordnames_A
+    \chordnames_B
+    \chordnames_hook
+    %
+    \chordnames_developOne
   } 
 }
 
@@ -118,6 +155,10 @@ drumContents = {
     \drums_B
     \drums_hook
     \drums_inter
+    % 
+    \drums_AA
+    \drums_B
+    \drums_hook
   }
 }
 

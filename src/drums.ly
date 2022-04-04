@@ -194,3 +194,73 @@ drums_inter = {
     \new DrumVoice \foot_inter
   >>
 }
+
+upper_AA = \drummode {
+    \voiceOne
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>8 hh8 hho8 sn8
+
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>8 hh8 hho8 sn8
+
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>8 hh8 hho8 sn8
+
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>4 hh8 hh8
+    hh4 <hh toml>8 hh8 <hh sn>8 hho4 toml8
+}
+
+foot_AA = \drummode {
+    \voiceTwo
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r8 bd8 bd8 r8
+
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r8 bd8 bd8 r8
+
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r8 bd8 bd8 r8
+
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r4. bd8
+    bd4. bd8 r8 bd8 bd8 r8
+}
+
+
+drums_AA = {
+  <<
+    \new DrumVoice \upper_AA
+    \new DrumVoice \foot_AA
+  >>
+}
+
+% TODO
+upper_developOne = \drummode {
+    \voiceOne
+}
+
+foot_developOne = \drummode {
+    \voiceTwo
+}
+
+drums_developOne = {
+  <<
+    \new DrumVoice \upper_developOne
+    \new DrumVoice \foot_developOne
+  >>
+}
