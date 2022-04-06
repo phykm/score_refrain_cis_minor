@@ -330,3 +330,127 @@ drums_developTwo = {
     \new DrumVoice \foot_developTwo
   >>
 }
+
+upper_hook_last = \drummode {
+    \voiceOne
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 <cymc sn>8 tommh8 tommh8 tomml8 toml8 toml16 toml16
+    
+    %
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 \tuplet 3/2 {<cymc sn>8 tommh8 tommh8 tommh8 sn8 sn8 sn8 toml8 toml8}
+    % 直前だけ三連符混じりの変種
+    % 繰り返す
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 <cymc sn>8 tommh8 tommh8 tomml8 toml8 toml16 toml16
+    
+    %
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 hh8 hh8 <cymc sn>4 hh8 sn16 sn16
+
+    cymc4 hh8 hh8 <cymc sn>4 hh8 toml16 toml16
+    cymc8 sn8 <cymc sn>8 tommh8 tommh8 sn8 hho8 toml16 toml16
+
+    cymc4 hho4 <hh sn>8 hh8 hho4
+    hh8 hh8  hho4 <hh sn>8 hh8 hho4
+    hh8 hh8  hho4 <hh sn>8 hh8 hho4
+    hh8 hh8  hho4 <hh sn>8 hh8 hho8 sn8
+}
+
+foot_hook_last = \drummode {
+    \voiceTwo
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 bd4 r2 bd4
+    %
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 bd4 \tuplet 3/2 {r4 bd8 } bd4 r4
+    % 直前だけ三連符混じりの変種
+    % 繰り返し
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 bd4 r2 bd4
+    %
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+    bd4 r8 bd8 r2 bd4 r2 bd4
+    %
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 r4
+    bd4 r8 bd8 r2 r4 bd4 r8 bd8 bd4
+}
+
+drums_hook_last = {
+  <<
+    \new DrumVoice \upper_hook_last
+    \new DrumVoice \foot_hook_last 
+  >>
+}
+
+
+% ほぼ同じ。最後に一打と休符
+upper_inter_last = \drummode {
+    \voiceOne
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
+    hh4 hh8 hh8 hh4 hh8 hh8
+    hh4 hh8 hh8 <hh sn>4 hh8 hh8
+    hh4 hh8 hh8 toml4 toml8 toml8
+    cymc1 R1 R1 R1 R1
+}
+foot_inter_last = \drummode {
+    \voiceTwo
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd8 bd8 r2. r2 bd8 bd8 r4
+    bd4 r2. R1 R1 R1 R1
+}
+
+drums_inter_last = {
+  <<
+    \new DrumVoice \upper_inter_last
+    \new DrumVoice \foot_inter_last
+  >>
+}

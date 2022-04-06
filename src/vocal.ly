@@ -39,6 +39,7 @@ melody_B = \relative c' {
     dis4 r8 gis,8 e'4. dis8
 }
 
+
 melody_hook = \relative c' {
     cis4. gis8 a2~
     a4 r8 fis8 fis'4. e8
@@ -84,4 +85,54 @@ melody_developTwo = \relative c' {
     c2. f,8 f8 d'4 c8 b4 c4 a8~
     a4 a'8 a8~4 g4 fis e8 e8~4 e8 fis8
     fis4. dis8 dis2~1~2. r4 r4. gis,8 e'4. dis8 
+}
+
+melody_hook_last = \relative c' {
+    cis4. gis8 a2~
+    a4 r8 fis8 fis'4. e8
+    dis8 e8 fis4 b,2~
+    b8 r8 cis8 cis8 a'4. gis8
+    gis4 fis4 fis8 gis8 e8 dis8
+    dis8 e8 cis4~8 bis8 cis8 fis8
+    dis2~8 cis8 dis8 cis8
+    bis4 r8 gis8  e'4. dis8
+
+    cis4. gis8 a2~
+    a4 r8 fis8 fis'4. e8
+    dis8 e8 fis4 b,2~
+    b8 r8 cis8 cis8 a'4. gis8
+    gis4 fis4 fis8 gis8 e8 dis8
+    dis8 e8 cis4~8 bis8 cis8 fis8
+    dis2~8 e8 fis8 gis8
+    gis4 fis4 e4. dis8 % ちょっと跳ねて繰り返し
+
+    cis4. gis8 a2~
+    a4 r8 fis8 fis'4. e8
+    dis8 e8 fis4 b,2~
+    b8 r8 cis8 cis8 a'4. gis8
+    gis4 fis4 fis8 gis8 e8 dis8
+    dis8 e8 cis4~8 bis8 cis8 fis8
+    dis2~8 cis8 dis8 cis8
+    bis4 r8 gis8  e'4. dis8
+
+    cis4. gis8 a2~
+    a4 r8 fis8 fis'4. e8
+    dis8 e8 fis4 b,2~
+    b8 r8 cis8 cis8 a'4. gis8
+    gis4 fis4 fis8 gis8 e8 dis8
+    dis8 e8 cis4~8 bis8 cis8 fis8
+    dis2~8 e8 fis8 gis8
+    gis4 fis4 e4 dis4
+
+    dis8 e8 cis2.~
+    cis8 r8 fis4 e4 dis4
+    dis8 e8 cis2.~
+    cis2. r4
+}
+
+melody_inter_tachet_last = \relative c' {
+    R1 R1 R1 R1
+    R1 R1 R1 R1 
+    R1 R1 R1 R1 
+    R1 
 }

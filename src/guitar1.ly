@@ -162,3 +162,65 @@ guitar_hook_solo = \relative c'' {
     %  TODO 
     \ottava #0
 }
+
+counter_hook_last = \relative c' {
+    a4. cis8 fis4. e8
+    dis4. e8 cis2
+    b4. dis8 fis8 gis8 a4
+    gis4. fis8 e2~
+    e8 r8 bis8 cis8 dis4 a'4
+    a4 gis4 e8 fis8 e8 dis8
+    dis8 bis8 cis4~8 cis8 dis8 e8
+    fis4. dis8 bis4. gis8
+
+    a4. cis8 fis4. e8
+    dis4. e8 cis2
+    b4. dis8 fis8 gis8 a4
+    gis4. fis8 e2~
+    e8 r8 bis8 cis8 dis4 a'4
+    a4 gis4 e8 fis8 e8 dis8
+    dis8 bis8 cis4~8 cis8 dis8 e8
+    fis4 dis4 fis4 gis4
+
+    % ソロを1フレーズ
+    \ottava #1
+    a4. cis8 dis4. e8 fis4~ 
+    \tuplet 3/2 {fis8 e8 dis8} a'2~
+    \tuplet 3/2 {a8 fis8 gis8 a8 gis8 fis8} b8 a8 gis8 fis8~
+    \tuplet 3/2 {fis4 e4 gis4} cis2~
+    cis4 ais8 cis8 bis4 \tuplet 3/2 { gis8 fis8 gis8 } 
+    fis4 e4~8 gis8 fis8 e8
+    dis8 fis8 a4~8 fis8 dis8 fis8
+    gis4. 
+    \ottava #0
+    dis,8 bis4. gis8
+
+    a4. cis8 fis4. e8
+    dis4. e8 cis2
+    b4. dis8 fis8 gis8 a4
+    gis4. fis8 e2~
+    e8 r8 bis8 cis8 dis4 a'4
+    a4 gis4 e8 fis8 e8 dis8
+    dis8 bis8 cis4~8 cis8 dis8 e8
+    fis4 dis4 bis4 gis4
+
+    gis8 cis8 cis2 b4~
+    b4 a4 gis4 a4~
+    a8 gis8 e2 cis''4~
+    cis4 \tuplet 3/2 {bis8 cis8 gis8 fisis8 gis8 dis8 e8 cis8 dis8}
+}
+
+counter_inter_last_One = \relative c'' {
+    \ottava #1
+    e,2. e'8 dis8~
+    dis4 e8 cis8~4 gis8 a8
+    a4. b8 fis2~
+    fis4 r8 e8 dis8 e8 fis4
+    gis2. fis'8 e8~
+    e4 fis8 dis4 e4 gis,8
+    a4. b8 cis2
+    bis4. cis8 dis4. gis,8
+
+    e'2. dis4 cis4 gis4 a4 fis'4 e4 dis4 e4 fis4 b,4 a'2. gis1^\fermata
+    \ottava #0
+}

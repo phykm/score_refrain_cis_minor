@@ -104,3 +104,57 @@ bass_developTwo = \relative c, {
     g4. 8 b4. g8 a8 c,8 c4 a'8 c,8 c8 a'8
     gis4. gis,8 gis2~1~1 r2 gis8 8 4 
 }
+
+bass_hook_last = \relative c, {
+    a4. a8 cis4. a8
+    a8 fis8 fis4 a8 fis8 fis8 a8
+    b4. b8 dis4. b8
+    cis8 e,8 e4 cis'8 e,8 e8 cis'8
+    fis,4 8 8 gis4 8 8 cis4 8 8 b8 e,8 e4
+    fis8 8 4 4 8 8
+    gis4. fis8 fis8 gis8 gis4 
+
+    a4. a8 cis4. a8
+    a8 fis8 fis4 a8 fis8 fis8 a8
+    b4. b8 dis4. b8
+    cis8 e,8 e4 cis'8 e,8 e8 cis'8
+    fis,4 8 8 gis4 8 8 cis4 8 8 b8 e,8 e4
+    fis8 8 4 4 8 8
+    gis4 4 8 8 4
+
+    % シンプルな繰り返し
+    a4. a8 cis4. a8
+    a8 fis8 fis4 a8 fis8 fis8 a8
+    b4. b8 dis4. b8
+    cis8 e,8 e4 cis'8 e,8 e8 cis'8
+    fis,4 8 8 gis4 8 8 cis4 8 8 b8 e,8 e4
+    fis8 8 4 4 8 8
+    gis4. fis8 fis8 gis8 gis4 
+
+    a4. a8 cis4. a8
+    a8 fis8 fis4 a8 fis8 fis8 a8
+    b4. b8 dis4. b8
+    cis8 e,8 e4 cis'8 e,8 e8 cis'8
+    fis,4 8 8 gis4 8 8 cis4 8 8 b8 e,8 e4
+    fis8 8 4 4 8 8
+    gis4 4 8 8 4
+
+    cis4. cis8 cis2~
+    cis4 cis4 b8 b8~4
+    cis4. cis8 cis2~
+    cis4 cis4 8 8~4
+}
+
+bass_inter_last = \relative c, {
+    a8 a8~4 r4 a8 a8~
+    a4 r4 a8 a8~4
+    b8 b8~4 r4 b8 gis8~
+    gis4 r4 gis8 gis8~4
+
+    a8 a8~4 r4 a8 a8~
+    a4 r4 a8 a8~4
+    b8 b8~4 r4 b8 gis8~
+    gis4 r4 gis8 gis8~4
+
+    cis1 R1 R1 R1 R1
+}

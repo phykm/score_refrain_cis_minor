@@ -42,3 +42,29 @@ chordnames_developTwo = \chordmode {
     f1 d1:m g1:7 a1:m/c
     gis:7 s1 s1 s1 
 }
+
+chordnames_hook_last = \chordmode {
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
+    fis2 gis2:7 cis2:m cis2:m/e
+    fis1:m gis:7.13-
+
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
+    fis2 gis2:7 cis2:m cis2:m/e
+    fis1:m gis1:7
+    % シンプルな繰り返し
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
+    fis2 gis2:7 cis2:m cis2:m/e
+    fis1:m gis:7.13-
+
+    a1 fis1:m b1:7 cis2:m/e cis2:m6-/e
+    fis2 gis2:7 cis2:m cis2:m/e
+    fis1:m gis1:7
+
+    cis1:m s2 b2 cis1:m s1 
+}
+
+chordnames_inter_last = \chordmode {
+    a1 s1 b1 gis1
+    a1 s1 b1 gis1
+    cis1:m s1 s1 s1 s1 
+}

@@ -125,24 +125,49 @@ chord_developTwo = \relative c'{
     \nsl
 }
 
-code_A_with_tone = {
-    <cis e gis>1~
-    1
-    <fis a cis>1
-    <e gis cis>1
-    <a cis e>1
-    <e gis b>1
-    <dis fis ais>1
-    <gis bis dis>1
+chord_hook_last_dummy = {
+    \sl
+    b8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    4 4 8 8 4
 
-    <cis e gis>1~
+    b8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    4 4 8 8 4
+
+    b8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    4 4 8 8 4
+
+    b8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    8 8 4 4 8 8
+    4 4 8 8 4
+
+    2. 4~
+    4 4 8 8~4
+    1~
     1
-    <fis a cis>1
-    <e gis cis>1
-    <a cis e>1
-    <e gis b>1
-    <fis ais cis>1
-    <b dis fis a>1
+    \nsl
 }
 
 counter_inter_Two = \relative c' {
@@ -152,3 +177,15 @@ counter_inter_Two = \relative c' {
     fis2 fis'2 dis2 gis,2
 }
 
+counter_inter_last_Two = \relative c'' {
+    \ottava #1
+    cis4. gis8 a2~1
+    fis2 fis'2 dis2 gis,2
+    cis4. gis8 a2~1
+    fis2 fis'2 dis2 gis,2
+
+    cis1
+    R1 R1 R1
+    <cis, gis' cis e>1^\fermata
+    \ottava #0
+}

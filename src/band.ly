@@ -36,6 +36,11 @@ voc_melo = {
     \melody_developTwo
     \cismKey
     %
+    \melody_hook_last
+    %
+    \melody_inter_tachet_last
+    %
+    \bar "|."
   } 
 }
 
@@ -59,6 +64,11 @@ guitar_melo = {
     \counter_developTwo
     \cismKey
     %
+    \counter_hook_last
+    %
+    \counter_inter_last_One
+    %
+    \bar "|."
   }
 }
 
@@ -82,6 +92,11 @@ guitar_code = {
     \chord_developTwo
     \cismKey
     %
+    \chord_hook_last_dummy
+    %
+    \counter_inter_last_Two
+    %
+    \bar "|."
   }
 }
 
@@ -105,6 +120,11 @@ lead = {
     \lead_developTwo
     \cismKey
     %
+    \lead_hook_last
+    %
+    \lead_inter_tachet_last
+    %
+    \bar "|."
   }
 }
 
@@ -128,6 +148,11 @@ bass = {
     \bass_developTwo
     \cismKey
     %
+    \bass_hook_last
+    %
+    \bass_inter_last
+    %
+    \bar "|."
   }
 }
 
@@ -147,6 +172,11 @@ chordnames = {
     \chordnames_developOne
     \chordnames_developTwo
     %
+    \chordnames_hook_last
+    %
+    \chordnames_inter_last
+    %
+    \bar "|."
   } 
 }
 
@@ -184,6 +214,11 @@ drumContents = {
     \drums_developOne
     \drums_developTwo
     %
+    \drums_hook_last
+    %
+    \drums_inter_last
+    %
+    \bar "|."
   }
 }
 
