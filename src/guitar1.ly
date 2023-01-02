@@ -54,7 +54,7 @@ counter_B_common = \relative c'{
     a1
     a4. gis8 fis4. e8
     r4 e4 gis4 cis4
-    b4 ais4 cis4 e4
+    bis4 cis4 fis4 e4
     dis8 cis8 bis4~8 dis8 e8 fis8
     gis4. dis8 bis4. gis8
 }

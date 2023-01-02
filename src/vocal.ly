@@ -34,7 +34,7 @@ melody_B = \relative c' {
     fis4. gis8 cis2
     r4 e,4 fis4 gis4
     a2 gis4 a4
-    gis4 fisis4 cis'2
+    gis4 fis4 cis'2
     dis2~8 fis8 e8 dis8~
     dis4 r8 gis,8 e'4. dis8
 }

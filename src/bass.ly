@@ -37,8 +37,8 @@ bass_B = \relative c, {
     fis8 fis8~4 r4 fis8 gis8~
     gis4 gis4 gis8 gis8~4
 
-    a8 a8~4 r4 a8 ais8~
-    ais4 ais4 ais8 cis8~4
+    a8 a8~4 r4 a8 fis8~
+    fis4 fis4 fis8' fis8~4
     dis8 dis8~4 r4 dis8 gis,8~
     gis4 gis4 gis8 gis8 gis4
 }

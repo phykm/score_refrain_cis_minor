@@ -9,7 +9,7 @@ chordnames_B = \chordmode {
     cis1:m fis1/ais b1:7 e1/gis
     a1 b1:7 e1 dis1:7 
     d1:7 cis:7 fis1:m gis1:7 
-    a1 ais1:dim dis1:dim gis:7.13-
+    a1 fis1:m dis1:dim gis:7.13-
 }
 
 chordnames_hook = \chordmode {
